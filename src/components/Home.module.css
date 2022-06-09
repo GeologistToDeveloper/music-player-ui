@@ -1,0 +1,46 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.searchBar input{
+    height: 8vh;
+    border-radius: 10rem;
+    width: 40vw;
+    font-size: x-large;
+    padding-left: 1rem;
+    transition: width 1s, height 1s;
+}
+
+.searchBar input:focus {
+    height: 10vh;
+    width: 60vw;
+}
+
+.songsList {
+    position: relative;
+    top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.songsList div {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.songsList img {
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 1rem;
+    border: 3px solid;
+    border-color: black;
+}
+

@@ -1,0 +1,79 @@
+
+
+.art {
+    display: flex;
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.songDetails {
+    position: fixed;
+    top: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.songDetails span{
+    position: relative;
+}
+
+.songDetails button {
+    display: inline;
+    position: absolute;
+    top: 0%;
+}
+
+.songDetails span {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 1.2rem;
+    color: sienna;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/* .art img {
+    /* position: fixed;
+    top: 22vh;
+    left: 30vw; 
+} */
+
+.art .span1 {
+    position: fixed;
+    top: 45vh;
+    left: 2px;
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    border: none;
+}
+
+.art .span2 {
+    position: fixed;
+    right: 5rem;
+    top: 45vh;
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    border: none;
+}
+
+.player {
+    position: fixed;
+    top: 90vh;
+    width: 100%;
+    height: 10vh;
+}
+
+.art img {
+    border-radius: 1rem;
+    border: 5px solid;
+    border-color: black;
+}
+
+/* button {
+    position: fixed;
+    top: 90vh;
+} */

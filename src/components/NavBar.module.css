@@ -1,0 +1,59 @@
+.navbar {
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(96, 24, 24);
+    margin-top: 0%;
+}
+
+.navbar li{
+    position: relative;
+    padding-right: 10rem;
+    left: 4rem;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
+.navbar li:hover{
+    opacity: 0.8;
+    transform: scale(1.05);
+    background-color: rgb(96, 24, 24,0.8);
+}
+
+.navbar button {
+    position: absolute;
+    top: 3vh;
+    right: 5%;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1rem;
+    color: rgb(96, 24, 24);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar button:hover {
+    background-color: rgb(203, 213, 213);
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.link {
+    text-decoration: none;
+   
+}
+
+
+.link:visited {
+    color: rgb(255, 255, 255);
+}
+

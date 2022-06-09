@@ -1,0 +1,107 @@
+.songsList {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+.songsList div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.songsList img {
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 5px solid;
+    border-color: black;
+} 
+
+
+
+.cards {
+    position: relative;
+    transition: all 0.2s;
+}
+
+.cardImage:hover {
+    opacity: 0.7;
+    transform: scale(1.005);
+}
+
+.cards:hover button {
+    visibility: visible !important;
+}
+
+.btn{
+    position: absolute !important;
+    top: 35%;
+    left: 42%;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.deleteBtn{
+    position: absolute !important;
+    top: 77%;
+    left: 70%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.playlistName {
+    text-align: center;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 2rem;
+    color: sienna;
+}
+.playlistName button {
+    position: absolute;
+    display: inline;
+    top: 20%;
+    right: 2%;
+    height: 2rem;
+    width: 2rem;
+    /* border-radius: 1rem; */
+}
+
+.cards span {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 1.2rem;
+    color: sienna;
+}
+
+.noPlaylists {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 3rem;
+    color: sienna;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}

@@ -1,0 +1,50 @@
+.formDiv {
+    position: relative;
+    top: -3vh;
+}
+
+.loginForm {
+    position: absolute;
+    border-radius: 1rem;
+    background-color: rgb(246, 250, 250);
+    box-shadow: 2px 2px 2px 6px rgb(50,50,50,0.2);
+    top: 10vh;
+    right: 33vw;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm label {
+    position: relative;
+    left: 10%;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+.loginForm input {
+    margin-top: 2px;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}
+
+.loginForm button {
+    margin: 1rem;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 33%;
+    align-self: center;
+}
+
+.loginForm button:hover {
+    background-color: rgb(203, 213, 213);
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
