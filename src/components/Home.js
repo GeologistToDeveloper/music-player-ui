@@ -17,6 +17,7 @@ const Home = () => {
 
 
   const inputChangeHandler = (evt) => {
+    
     let input = evt.target.value.trim().toUpperCase();
     if (input !== "") {
       setIsInputNotNull(true);
