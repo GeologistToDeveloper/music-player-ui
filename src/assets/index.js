@@ -26,6 +26,7 @@ import audio12 from "./audio/12.wav";
 
 const songs = [
   {
+    id:0,
     image: image1,
     audio: audio1,
     audioTitle: "Grin",
@@ -34,6 +35,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:1,
     image: image2,
     audio: audio2,
     audioTitle: "Aaj Tum",
@@ -42,6 +44,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:2,
     image: image3,
     audio: audio3,
     audioTitle: "Something",
@@ -50,6 +53,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:3,
     image: image4,
     audio: audio4,
     audioTitle: "LOL",
@@ -58,6 +62,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:4,
     image: image5,
     audio: audio5,
     audioTitle: "Hymn",
@@ -66,6 +71,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:5,
     image: image6,
     audio: audio6,
     audioTitle: "Dangerous",
@@ -74,6 +80,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:6,
     image: image7,
     audio: audio7,
     audioTitle: "Go Away",
@@ -82,6 +89,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:7,
     image: image8,
     audio: audio8,
     audioTitle: "Get Schwifty",
@@ -90,6 +98,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:8,
     image: image9,
     audio: audio9,
     audioTitle: "XXoXX",
@@ -98,6 +107,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:9,
     image: image10,
     audio: audio10,
     audioTitle: "Yeah No",
@@ -106,6 +116,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:10,
     image: image11,
     audio: audio11,
     audioTitle: "Urfi",
@@ -114,6 +125,7 @@ const songs = [
       "A great song performed by the great artist. Recorded in 2013, it has since become a staple of hip-hop music. The artist received three Grammy nominations and one win for the song.",
   },
   {
+    id:11,
     image: image12,
     audio: audio12,
     audioTitle: "Radio",

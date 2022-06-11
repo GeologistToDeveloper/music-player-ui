@@ -3,6 +3,8 @@ import NavBar from "./NavBar";
 import styles from "./Home.module.css";
 import SongsList from "./SongsList";
 import songs from "../assets/index.js";
+import SongCard from "./ui/SongCard";
+import SonglistContainer from "./ui/SonglistContainer";
 
 const Home = () => {
   const [isInputNotNull, setIsInputNotNull] = useState(false);
@@ -51,16 +53,15 @@ const Home = () => {
       {!isInputNotNull && <SongsList />}
 
       {isInputNotNull && (
-        <div className={styles.songsList}>
+        
+        <SonglistContainer>
           {searchList.map((song) => {
             return (
-              <div key={Math.random()}>
-                <img src={song.image} alt="Album Art"></img>
-                <p>{`${song.audioTitle}   |   ${song.audioArtist}`}</p>
-              </div>
+              <SongCard i={song.id} song={song}/>
             );
           })}
-        </div>
+       
+        </SonglistContainer>
       )}
     </Fragment>
   );

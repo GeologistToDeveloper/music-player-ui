@@ -1,0 +1,51 @@
+
+
+.cards {
+    position: relative;
+    transition: all 0.2s;
+}
+
+.cardImage:hover {
+    opacity: 0.7;
+    transform: scale(1.005);
+}
+
+.cards:hover button {
+    visibility: visible !important;
+}
+
+.btn{
+    position: absolute !important;
+    top: 35%;
+    left: 42%;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.infoBtn {
+    position: absolute !important;
+    top: 5%;
+    right: 20%;
+    border: none;
+    background-color: transparent;
+    z-index: 2;
+}
+
+
+
+.deleteBtn{
+    position: absolute !important;
+    top: 72%;
+    left: 70%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
