@@ -18,29 +18,5 @@
     width: 60vw;
 }
 
-.songsList {
-    position: relative;
-    top: 10vh;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-}
 
-.songsList div {
-    width: 33%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 3rem;
-    align-items: center;
-}
-
-.songsList img {
-    object-fit: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 1rem;
-    border: 3px solid;
-    border-color: black;
-}
 

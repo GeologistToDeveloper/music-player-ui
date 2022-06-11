@@ -5,6 +5,7 @@
     left: 10vw;
     width: 100vw;
     justify-content: space-around;
+    margin-bottom: 10rem;
 }
 
 .mainSong img {
@@ -45,31 +46,7 @@
 }
 
 
-.songsList {
-    position: relative;
-    top: 20vh;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-}
 
-.songsList div {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 3rem;
-    align-items: center;
-}
-
-.songsList img {
-    object-fit: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 1rem;
-    border: 3px solid;
-    border-color: black;
-}
 
 .div1 {
     /* position: relative; */
@@ -98,45 +75,3 @@
     align-items: center;
 }
 
-.cards {
-    position: relative;
-    transition: all 0.2s;
-}
-
-.cardImage:hover {
-    opacity: 0.7;
-    transform: scale(1.005);
-}
-
-.cards:hover button {
-    visibility: visible !important;
-}
-
-.btn{
-    position: absolute !important;
-    top: 35%;
-    left: 42%;
-    height: 4rem;
-    width: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-}
-
-.infoBtn {
-    position: absolute !important;
-    top: 5%;
-    right: 20%;
-    border: none;
-    background-color: transparent;
-    z-index: 2;
-}
-
-.songsList p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: bold;
-    font-size: 1.1rem;
-    /* text-decoration: underline; */
-    color: brown;
-}
